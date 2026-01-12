@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react"
-import axios from 'axios'
+import api from '../utils/axios'
 
 const BASE_URL = process.env.REACT_APP_BASE_URL
 
